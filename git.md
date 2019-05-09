@@ -1,7 +1,12 @@
+### Initial setup
+`git config --global user.name "John Doe"`   
+`git config --global user.email johndoe@example.com`
+
+### Select editor
+git config --global core.editor mcedit
 
 ### Global gitignore
-`touch ~/.gitignore`
-
+`touch ~/.gitignore`   
 `git config --global core.excludesfile '~/.gitignore'`
 
 ### Local ssh key
