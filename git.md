@@ -1,9 +1,10 @@
 ### Initial setup
 `git config --global user.name "John Doe"`   
-`git config --global user.email johndoe@example.com`
+`git config --global user.email johndoe@example.com`  
+`git config --global core.autocrlf input`
 
 ### Select editor
-git config --global core.editor mcedit
+`git config --global core.editor mcedit`
 
 ### Global gitignore
 `touch ~/.gitignore`   
