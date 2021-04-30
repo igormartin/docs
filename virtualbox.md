@@ -39,7 +39,7 @@ Write `Fix` to apply
 `lsblk`
 
 #### See lvm mapper device name
-df -h /home/
+`df -h /`
 
 #### Expand lvm volume to the entire disk
 `sudo lvextend -L {partition_max_size} {lvm_mapper_device}`
